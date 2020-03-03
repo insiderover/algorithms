@@ -17,7 +17,7 @@ var testDataLinearSearch = []testCaseLinearSearch{
 
 func TestLinearSearch(t *testing.T) {
 	for _, pair := range testDataLinearSearch {
-		ix := linearSearch(pair.testSlice, pair.needle)
+		ix := LinearSearch(pair.testSlice, pair.needle)
 		if ix != pair.expected {
 			t.Error(
 				"Needle", pair.needle,
