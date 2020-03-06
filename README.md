@@ -23,3 +23,10 @@ BenchmarkInsertionSort-8        100000000               10.6 ns/op             0
 BenchmarkLinearSearch-8         25225782                46.9 ns/op             0 B/op          0 allocs/op
 BenchmarkBinarySearch-8         471159522               2.49 ns/op             0 B/op          0 allocs/op
 ```
+
+#### Results of stack benchmarks
+```
+BenchmarkSimpleStack_Push-8     1000000000               0.00133 ns/op         0 B/op          0 allocs/op
+BenchmarkSimpleStack_Pop-8      1000000000               0.000905 ns/op        0 B/op          0 allocs/op
+BenchmarkSimpleStack_Peek-8     1000000000               0.000510 ns/op        0 B/op          0 allocs/op
+```
