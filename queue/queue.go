@@ -4,7 +4,9 @@
 // Remove O(1)
 package queue
 
-import "errors"
+import (
+	"errors"
+)
 
 type Queue struct {
 	rear    int
@@ -13,7 +15,7 @@ type Queue struct {
 	queue   []int
 }
 
-func New(size int) *Queue {
+func NewQueue(size int) *Queue {
 	return &Queue{rear: -1, front: 0, numElem: 0, queue: make([]int, size)}
 }
 
